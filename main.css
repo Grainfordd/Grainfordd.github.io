@@ -1,0 +1,57 @@
+body {
+    background-color: #ddd;
+    margin: 0;
+}
+
+.barra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    background-color: #222;
+    margin-bottom: 10px;
+}
+
+.navegacion {
+    color: #eee;
+    /* padding: 23px; */
+    padding: 23px 50px 23px 50px;
+    margin-right: 50px;
+    border-radius: 3px;
+}
+
+.navegacion:hover {
+    background-color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #ddd;
+}
+
+.index {
+    border: solid;
+    text-align: center;
+    margin:auto;
+    width: 50%;
+}
+.hola{
+    background-image: url(resident.jfif);
+    background-size:cover;
+}
+.hijo{
+    border: none;
+    
+}
+
+.imagen {
+    animation: 0.3s;
+}
+
+.imagen:hover {
+    opacity: 0.5;
+}
+
+.navegacion {
+    display: inline-block;
+}
