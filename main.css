@@ -30,13 +30,12 @@ a {
 }
 
 .index {
-    border: solid;
     text-align: center;
     margin:auto;
     width: 50%;
 }
 .hola{
-    background-image: url(resident.jfif);
+    background-image: url(material/resident.jfif);
     background-size:cover;
 }
 .hijo{
