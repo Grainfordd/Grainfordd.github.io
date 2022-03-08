@@ -1,6 +1,7 @@
 body {
     background-color: #ddd;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .barra {
@@ -37,6 +38,7 @@ a {
 .hola{
     background-image: url(material/resident.jfif);
     background-size:cover;
+    /* background-repeat: no-repeat; */
 }
 .hijo{
     border: none;
@@ -54,3 +56,59 @@ a {
 .navegacion {
     display: inline-block;
 }
+
+/* ARTICULOS */
+
+.texto {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: #eee;
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	padding: 30px;
+	height: 300px;
+	width: 500px;
+	border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.texto:hover {
+    transform: scale(1.05, 1.05);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+/* TERMINO ARTICULOS */
+
+
+/* PIE DE LA PAGINA */
+
+.pie {
+	display:flex;
+	position: relative;
+	background-color: #222;
+	height: 150px;
+	width: 100vw;
+	bottom: 0;
+	left: 0;
+}
+
+.instagram {
+	display:flex;
+	flex-direction: column;
+	color: white;
+}
+
+#texto-instagram {
+	position: relative;
+	left: 50px;
+	
+}
+.cuenta:hover {
+	color: #bbb;
+}
+
+/* TERMINO DEL PIE DE LA PÁGINA */
+
