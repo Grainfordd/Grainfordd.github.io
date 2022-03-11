@@ -13,37 +13,26 @@ body {
     margin-bottom: 10px;
 }
 
-.navegacion {
-    color: #eee;
-    /* padding: 23px; */
-    padding: 23px 50px 23px 50px;
-    margin-right: 50px;
-    border-radius: 3px;
-}
-
-.navegacion:hover {
-    background-color: #333;
-}
-
 a {
     text-decoration: none;
     color: #ddd;
 }
 
-.index {
+.titulo {
+    padding: 20px;
+    background-color: #222;
+    color: #ddd;
     text-align: center;
-    margin:auto;
-    width: 50%;
+    width: 100%;
+    margin-top:0;
 }
-.hola{
-    background-image: url(material/resident.jfif);
-    background-size:cover;
-    /* background-repeat: no-repeat; */
+
+.medio {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    margin-left: 20px;
 }
-.hijo{
-    border: none;
-    
-}
+
 
 .imagen {
     animation: 0.3s;
@@ -53,19 +42,22 @@ a {
     opacity: 0.5;
 }
 
-.navegacion {
-    display: inline-block;
-}
 
 /* ARTICULOS */
+
+.articulos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
 
 .texto {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 	background-color: #eee;
-	margin-top: 30px;
-	margin-left: 50px;
+	/* margin-top: 30px;
+	margin-left: 50px; */
 	margin-bottom: 50px;
 	padding: 30px;
 	height: 300px;
@@ -106,9 +98,24 @@ a {
 	left: 50px;
 	
 }
+
+.pie {
+    list-style-type: none;
+}
 .cuenta:hover {
 	color: #bbb;
 }
 
 /* TERMINO DEL PIE DE LA PÁGINA */
 
+
+ /* HOLA HIJOS DE PUTA */
+.hola{
+    background-image: url(material/resident.jfif);
+    background-size:cover;
+}
+
+.hijo{
+    border: none;
+    
+}
